@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Beyond</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./img/tb.png">
+</head>
+
+<body>
+
+
+    <!--SECCION HEADER-->
+
+    <header class="header">
+        <div class="header__logo ">
+            <a class="nav__link" href="#hero">Travel Beyond</a>
+        </div>
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="menu-icon" aria-label="Abrir Menú">
+            <span class="menu-icon__line"> </span>
+            <span class="menu-icon__line"> </span>
+            <span class="menu-icon__line"> </span>
+        </label>
+
+        <nav class="header__nav">
+            <ul class="nav__links">
+                <li><a class="nav__link" href="#Caracteristicas">Características</a></li>
+                <li><a class="nav__link" href="#Sponsors">Sponsors</a></li>
+                <li><a class="nav__link" href="#Testimonios">Testimonios</a></li>
+            </ul>
+        </nav>
+        <a class="header__button" href="#form">Descubrir más</a>
+        <!--no usé la etiqueta botón pq es solo para redirigir dentro de la página-->
+    </header>
+
+    <main>
+
+        <!--SECCION HERO-->
+
+        <section class="hero" id="hero">
+            <video class="hero__video" src="./video/video_hero.mov" autoplay muted loop></video>
+            <div>
+                <h1 class="hero__title">Aquí,<br> la inmensidad adquiere <br> un nuevo significado</h1>
+                <!--este break en el titulo es intencional-->
+                <p class="hero__text"> Explora lo desconocido. Redefine lo imposible. Vive Travel Beyond.</p>
+                <a class="hero__button" href="#form">Descubrir más</a>
+                <!--no usé la etiqueta botón pq es solo para redirigir dentro de la página-->
+            </div>
+        </section>
+
+
+
+        <!--SECCION QUOTE-->
+
+        <section class="quote">
+            <video class="quote__video" src="./video/video_quote2.mov" autoplay muted loop></video>
+            <h2 class="quote__text">"La línea es un punto en movimiento"</h2>
+            <p class="quote__author">-Paul Klee</p>
+        </section>
+
+
+
+        <!--SECCION CARACTERISTICAS-->
+
+        <section class="caracteristicas" id="Caracteristicas">
+            <h2 class="caracteristicas__title">Características</h2>
+
+            <div class="caracteristicas-card">
+                <div>
+                    <h4 class="caracteristicas-card__title">Conexión en tiempo real con la Tierra</h4>
+                    <p class="caracteristicas-card__content">Conecta con tu círculo cercano en la Tierra mediante un
+                        sistema
+                        de comunicación desarrollado exclusivamente para ti.</p>
+                </div>
+                <img class="caracteristicas-card__img" src="./img/dispositivo.jpg" alt="">
+            </div>
+
+
+            <div class="caracteristicas-card">
+                <div>
+                    <h4 class="caracteristicas-card__title">Preparación avanzada</h4>
+                    <p class="caracteristicas-card__content">Accede a un programa altamente especializado que cubre cada
+                        fase del viaje. Entrenadores de élite y simuladores de vanguardia garantizan la máxima
+                        preparación
+                        para una experiencia sin igual.</p>
+                </div>
+                <img class="caracteristicas-card__img" src="./img/entrenamiento.jpg" alt="">
+            </div>
+
+
+            <div class="caracteristicas-card ">
+                <div>
+                    <h4 class="caracteristicas-card__title">Trajes confeccionados con tecnología de primer nivel</h4>
+                    <p class="caracteristicas-card__content">ILC Dover y Louis Vuitton garantizan trajes que cumplen los
+                        más
+                        altos estándares tecnológicos y destacan en innovación y seguridad.</p>
+                </div>
+                <img class="caracteristicas-card__img" src="./img/traje.jpg" alt="">
+            </div>
+
+            <a class="caracteristicas__button" href="#form">Descubrir más</a>
+            <!--no usé la etiqueta botón pq es solo para redirigir dentro de la página-->
+        </section>
+
+
+
+        <!--SECCION SPONSORS-->
+
+        <section class="sponsor" id="Sponsors">
+
+            <h2 class="sponsor__title">Respaldados por</h2>
+            <div class="sponsor__logo">
+                <img class="sponsor__logo logo--1" src="./img/kindpng_424812.png" alt="">
+                <img class="sponsor__logo logo--2" src="./img/ESA.png" alt="">
+                <img class="sponsor__logo logo--3" src="./img/ILC_Dover.png" alt="">
+                <img class="sponsor__logo logo--4" src="./img/LV.png" alt="">
+            </div>
+        </section>
+
+
+
+        <!--SECCION TESTIMONIOS-->
+
+        <section class="testimonios" id="Testimonios">
+            <h2 class="testimonio__title">Testimonios</h2>
+
+
+            <div class="carousel">
+                <input type="radio" name="carousel" id="slide1" checked>
+                <input type="radio" name="carousel" id="slide2">
+                <input type="radio" name="carousel" id="slide3">
+
+
+                <div class="carousel__container">
+                    <div class="carousel__slide">
+                        <div class="testimonio-card">
+                            <p class="testimonio-card__quote">
+                                "He vivido muchas aventuras, pero ninguna como esta. Es más que un destino, es un estado
+                                mental que cambia tu perspectiva para siempre."
+                            </p>
+                            <div class="testimonio-card__persona">
+                                <img class="testimonio-card__img" src="./img/keanu2.jpg" alt="">
+                                <div class="testimonio-card__quien">
+                                    <p class="testimonio-card__nombre">Keanu Reeves</p>
+                                    <p class="testimonio-card__ocupacion">Actor, músico y filántropo.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel__slide">
+                        <div class="testimonio-card">
+                            <p class="testimonio-card__quote">
+                                "La oportunidad de estar a la vanguardia de la innovación tecnológica abre caminos hacia
+                                horizontes inexplorados. Emprender este tipo de viajes redefine nuestra capacidad de
+                                soñar,
+                                conectar y avanzar como especie”
+                            </p>
+                            <div class="testimonio-card__persona">
+                                <img class="testimonio-card__img" src="./img/sundar2.jpg" alt="">
+                                <div class="testimonio-card__quien">
+                                    <p class="testimonio-card__nombre">Sundar Pichai</p>
+                                    <p class="testimonio-card__ocupacion">Director ejecutivo Google.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel__slide">
+                        <div class="testimonio-card">
+                            <p class="testimonio-card__quote">
+                                "Ser testigo de la inmensidad del espacio me dejó sin palabras. Es como si todo lo que
+                                hemos
+                                conocido fuera solo una fracción de lo que somos capaces de lograr"
+                            </p>
+                            <div class="testimonio-card__persona">
+                                <img class="testimonio-card__img" src="./img/victoria2.jpg" alt="">
+                                <div class="testimonio-card__quien">
+                                    <p class="testimonio-card__nombre">Victoria Beckham</p>
+                                    <p class="testimonio-card__ocupacion">Diseñadora y cantante.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel__indicators">
+                <label for="slide1" class="carousel__button"></label>
+                <label for="slide2" class="carousel__button"></label>
+                <label for="slide3" class="carousel__button"></label>
+            </div>
+        </section>
+
+
+
+        <!--SECCION FORM-->
+
+        <section class="form" id="form">
+            <form class="form__container">
+                <h3 class="form__title"> Todo comienza con un paso más allá.</h3>
+                <p class="form__content">Completa el formulario y obtén información detallada del itinerario.</p>
+
+                <div class="form__input">
+                    <label class="label" for="nombre_completo"> Nombre completo</label>
+                    <input class="input_field" id="nombre_completo" type="text" placeholder="John Doe">
+                </div>
+
+                <div class="form__input">
+                    <label class="label" for="email">Email</label>
+                    <input class="input_field" id="email" type="email" placeholder="ejemplo@gmail.com">
+                </div>
+
+                <div class="form__input">
+                    <input id="acepto" type="checkbox">
+                    <label class="label" for="acepto"> <a class="link__condiciones" href="#">Acepto términos y condiciones*</a>
+                    </label>
+                </div>
+
+                <button class="form__button">Solicitar información</button>
+            </form>
+        </section>
+    </main>
+
+
+
+
+    <!--SECCION FOOTER-->
+
+    <footer class="footer">
+        <div class="footer__list">
+            <ul class="footer__list">
+                <li class="list__item">
+                    © 2024 Travel Beyond. All rights reserved
+                </li>
+                <li class="list__item">
+                    Contacto: info@travelbeyond.com
+                </li>
+                <li class="list__item">
+                    +1 (800) 555-1234
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+
+</html>
